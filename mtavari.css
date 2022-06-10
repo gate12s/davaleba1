@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 12px;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    padding: 60px ; 
+    background-image: url(img/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    width: 95%;
+    position: fixed;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+ nav .icon .fa-clapperboard{
+    color: #ffffff;
+    font-size: 50px;
+}
+nav .icon .fa-clapperboard:hover{
+    color: red;
+}
+ ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+nav ul li a{
+    color:#ffffff;
+    
+}
+ ul li a:hover{
+    
+    border-bottom: 1px solid #ffffff;
+}
+.arrow-down{
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.arrow-down .fa-angle-down{
+    color: #ffffff;
+    font-size: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+.slide{
+    width: 100%;
+    height: 400px;
+    background-color: #3D3D3D;
+    color: #ffffff;
+    text-align: center;
+}
+.dididivi{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    padding: 30px;
+}
+.imgdiv{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.imgdiv img{
+    width: 100%;
+}
+.div1{
+    background-color: #FF9900;
+    margin: 20px;
+}
+.siaxle{
+    width: 100%;
+    padding: 60px;
+    background-color: #FF9900;
+}
+a{
+    display: block;
+    margin: 20px 50px;
+}
+.samishvili{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    padding: 30px;
+}
+.imgdiv1{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-color: #FF9900;
+}
+.imgdiv1 img{
+    width: 100%;
+}
+p{
+   width: 100%;
+   padding: 20px;
+}
+
+.siaxle1{
+    width: 100%;
+    padding: 60px;
+    background-color: #FFC700;
+}
+.div2{
+    background-color: #FFC700;
+    margin: 20px;
+}   
+.samishvili2{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    padding: 30px;
+} 
+.active{
+    border-bottom: 1px solid #ffffff;
+}
+
+
+
+
+
+
